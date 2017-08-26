@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		C30B24C41F498CC9001DA6FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B24C31F498CC9001DA6FD /* main.m */; };
 		C30B24C71F498CC9001DA6FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B24C61F498CC9001DA6FD /* AppDelegate.m */; };
-		C30B24CA1F498CC9001DA6FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B24C91F498CC9001DA6FD /* ViewController.m */; };
 		C30B24CD1F498CC9001DA6FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B24CB1F498CC9001DA6FD /* Main.storyboard */; };
 		C30B24D01F498CC9001DA6FD /* TestCoreDataapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C30B24CE1F498CC9001DA6FD /* TestCoreDataapp.xcdatamodeld */; };
 		C30B24D21F498CC9001DA6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30B24D11F498CC9001DA6FD /* Assets.xcassets */; };
 		C30B24D51F498CC9001DA6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B24D31F498CC9001DA6FD /* LaunchScreen.storyboard */; };
 		C30B24E01F498CC9001DA6FD /* TestCoreDataappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B24DF1F498CC9001DA6FD /* TestCoreDataappTests.m */; };
+		C30B24EC1F498CFC001DA6FD /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B24EB1F498CFC001DA6FD /* TableViewCell.m */; };
+		C30B24EF1F498D0C001DA6FD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B24EE1F498D0C001DA6FD /* TableViewController.m */; };
+		C30B24F41F498E54001DA6FD /* Photo+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B24F11F498E54001DA6FD /* Photo+CoreDataClass.m */; };
+		C30B24F51F498E54001DA6FD /* Photo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B24F31F498E54001DA6FD /* Photo+CoreDataProperties.m */; };
+		C34765811F4E87C90015906C /* Photo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C34765801F4E87C90015906C /* Photo+CoreDataProperties.m */; };
+		C34AAE341F4BBAFA00AC3580 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34AAE331F4BBAFA00AC3580 /* PhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +37,6 @@
 		C30B24C31F498CC9001DA6FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C30B24C51F498CC9001DA6FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C30B24C61F498CC9001DA6FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C30B24C81F498CC9001DA6FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C30B24C91F498CC9001DA6FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C30B24CC1F498CC9001DA6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C30B24CF1F498CC9001DA6FD /* TestCoreDataapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestCoreDataapp.xcdatamodel; sourceTree = "<group>"; };
 		C30B24D11F498CC9001DA6FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +45,18 @@
 		C30B24DB1F498CC9001DA6FD /* TestCoreDataappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCoreDataappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30B24DF1F498CC9001DA6FD /* TestCoreDataappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCoreDataappTests.m; sourceTree = "<group>"; };
 		C30B24E11F498CC9001DA6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30B24EA1F498CFC001DA6FD /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = ../TableViewCell.h; sourceTree = "<group>"; };
+		C30B24EB1F498CFC001DA6FD /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = ../TableViewCell.m; sourceTree = "<group>"; };
+		C30B24ED1F498D0C001DA6FD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		C30B24EE1F498D0C001DA6FD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		C30B24F01F498E54001DA6FD /* Photo+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Photo+CoreDataClass.h"; path = "../Photo+CoreDataClass.h"; sourceTree = "<group>"; };
+		C30B24F11F498E54001DA6FD /* Photo+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Photo+CoreDataClass.m"; path = "../Photo+CoreDataClass.m"; sourceTree = "<group>"; };
+		C30B24F21F498E54001DA6FD /* Photo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Photo+CoreDataProperties.h"; path = "../Photo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C30B24F31F498E54001DA6FD /* Photo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Photo+CoreDataProperties.m"; path = "../Photo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C347657F1F4E87C90015906C /* Photo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Photo+CoreDataProperties.h"; path = "../Photo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C34765801F4E87C90015906C /* Photo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Photo+CoreDataProperties.m"; path = "../Photo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C34AAE321F4BBAFA00AC3580 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		C34AAE331F4BBAFA00AC3580 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +98,11 @@
 		C30B24C11F498CC9001DA6FD /* TestCoreDataapp */ = {
 			isa = PBXGroup;
 			children = (
+				C30B24F81F498E7C001DA6FD /* View */,
+				C30B24F71F498E6F001DA6FD /* Controller */,
+				C30B24F61F498E63001DA6FD /* Model */,
 				C30B24C51F498CC9001DA6FD /* AppDelegate.h */,
 				C30B24C61F498CC9001DA6FD /* AppDelegate.m */,
-				C30B24C81F498CC9001DA6FD /* ViewController.h */,
-				C30B24C91F498CC9001DA6FD /* ViewController.m */,
 				C30B24CB1F498CC9001DA6FD /* Main.storyboard */,
 				C30B24D11F498CC9001DA6FD /* Assets.xcassets */,
 				C30B24D31F498CC9001DA6FD /* LaunchScreen.storyboard */,
@@ -112,6 +128,39 @@
 				C30B24E11F498CC9001DA6FD /* Info.plist */,
 			);
 			path = TestCoreDataappTests;
+			sourceTree = "<group>";
+		};
+		C30B24F61F498E63001DA6FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C30B24F01F498E54001DA6FD /* Photo+CoreDataClass.h */,
+				C30B24F11F498E54001DA6FD /* Photo+CoreDataClass.m */,
+				C30B24F21F498E54001DA6FD /* Photo+CoreDataProperties.h */,
+				C30B24F31F498E54001DA6FD /* Photo+CoreDataProperties.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C30B24F71F498E6F001DA6FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C30B24ED1F498D0C001DA6FD /* TableViewController.h */,
+				C30B24EE1F498D0C001DA6FD /* TableViewController.m */,
+				C30B24EA1F498CFC001DA6FD /* TableViewCell.h */,
+				C30B24EB1F498CFC001DA6FD /* TableViewCell.m */,
+				C34AAE321F4BBAFA00AC3580 /* PhotoViewController.h */,
+				C34AAE331F4BBAFA00AC3580 /* PhotoViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C30B24F81F498E7C001DA6FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C347657F1F4E87C90015906C /* Photo+CoreDataProperties.h */,
+				C34765801F4E87C90015906C /* Photo+CoreDataProperties.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +268,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C30B24D01F498CC9001DA6FD /* TestCoreDataapp.xcdatamodeld in Sources */,
-				C30B24CA1F498CC9001DA6FD /* ViewController.m in Sources */,
+				C34AAE341F4BBAFA00AC3580 /* PhotoViewController.m in Sources */,
+				C30B24EC1F498CFC001DA6FD /* TableViewCell.m in Sources */,
+				C34765811F4E87C90015906C /* Photo+CoreDataProperties.m in Sources */,
+				C30B24F41F498E54001DA6FD /* Photo+CoreDataClass.m in Sources */,
+				C30B24F51F498E54001DA6FD /* Photo+CoreDataProperties.m in Sources */,
 				C30B24C71F498CC9001DA6FD /* AppDelegate.m in Sources */,
+				C30B24EF1F498D0C001DA6FD /* TableViewController.m in Sources */,
 				C30B24C41F498CC9001DA6FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +478,7 @@
 				C30B24E61F498CC9001DA6FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C30B24E71F498CC9001DA6FD /* Build configuration list for PBXNativeTarget "TestCoreDataappTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +487,7 @@
 				C30B24E91F498CC9001DA6FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
